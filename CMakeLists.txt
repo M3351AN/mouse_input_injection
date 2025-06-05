@@ -11,5 +11,10 @@ endif()
 
 project ("mouse_input_injection")
 
-# 包含子项目。
-add_subdirectory ("mouse_input_injection")
+# 将源代码添加到此项目的可执行文件。
+add_executable (mouse_input_injection_example "example.cc" "mouse_input_injection.h")
+
+if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET mouse_input_injection_example PROPERTY CXX_STANDARD 23)
+endif()
+
