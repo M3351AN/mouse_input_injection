@@ -16,7 +16,7 @@ A lightweight, header-only alternative for emulating mouse movements and actions
 
 ## License
 
-This project is licensed under [**TOSSRCU**](LICENSE).
+This project is licensed under [**TOSSUCU**](LICENSE).
 ```diff
 + You are free to:
 	• Use: Utilize the software for any purpose not explicitly restricted
