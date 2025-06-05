@@ -9,7 +9,7 @@ A lightweight, header-only alternative for emulating mouse movements and actions
 - Usage is identical to the `mouse_event` function in the Windows API.  
 - Header-only design makes it easy to integrate into your program.
 
-## Usuage
+## Usage
 
 - Download and include the `mouse_input_injection.h` header in your project.  
 - Replace calls to `mouse_event` with `my_mouse_event`.
