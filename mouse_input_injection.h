@@ -18,7 +18,6 @@ class MouseInterface {
 
  public:
   MouseInterface() {
-    LoadLibraryW(L"user32.dll");
     HMODULE win32u_module = LoadLibraryW(L"win32u.dll");
     if (!win32u_module) {
       std::cerr << "[-] Could not load win32u.dll\n";
