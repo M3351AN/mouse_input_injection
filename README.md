@@ -22,4 +22,6 @@ This project is licensed under [**TOSSUCU License 2025.9**](LICENSE).
 
 Inspired by [Zpes](https://github.com/Zpes)' [mouse-input-injection](https://github.com/Zpes/mouse-input-injection).
 
+## See also
 
+[Keyboard Input Injection](https://github.com/M3351AN/keybd_input_injection).
